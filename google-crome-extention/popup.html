@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Social Profile</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <style>
+      html,
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 130px;
+        padding: 0;
+        width: 384px;
+      }
+
+      h1 {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0;
+        color: black;
+        text-align: center;
+      }
+
+      a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      img {
+        width: 30px;
+      }
+
+      .header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+
+      .logo-section {
+        padding: 0 90px;
+        text-align: center;
+      }
+
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+
+
+
+      .logo-box {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+
+      .social-logo {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+      }
+
+      .social-logo:hover {
+        opacity: 0.4;
+      }
+
+      .social-logo .fa {
+        font-size: 20px;
+        color: #2f5876;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1 class="logo">
+        <img class="logo-icon" src="images/logo.png" />My Social Profile
+      </h1>
+    </div>
+
+    <!-- Start Social Logo Section -->
+    <div class="logo-section">
+      <div class="logo-box">
+
+        <div class="social-logo">
+          <a href="https://www.facebook.com/jayambhure123" target="_blank">
+            <i class="fa fa-facebook" style="color:blue "></i>
+          </a>
+        </div>
+
+        <div class="social-logo">
+          <a href="https://www.instagram.com/jayambhure1/" target="_blank">
+            <i class="fa fa-instagram" style="color:blue "></i>
+          </a>
+        </div>
+
+        <div class="social-logo">
+          <a href="#" target="_blank">
+            <i class="fa fa-youtube" style="color:blue "></i>
+          </a>
+        </div>
+
+        <div class="social-logo">
+          <a href="#" target="_blank">
+            <i class="fa fa-twitter" style="color:blue "></i>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
